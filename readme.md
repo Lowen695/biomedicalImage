@@ -1,5 +1,5 @@
-#Markdown practice 
-##Notebook 2021
+# Markdown practice 
+## Notebook 2021
 
 __This is bold__ \
 **this is another way for bold text** \
