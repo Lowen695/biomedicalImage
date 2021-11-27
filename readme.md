@@ -14,12 +14,14 @@ ___
 > YOU CAN WRITE ANYTHING HERE \
 > IN ONE BLOCK \
 > And show in entire
+> > Block in block  
+> > the end.
 
 
 
 [links](www.google.com) 
 
-This example showing how to make a list
+This example showing how to make a list.[^note]
 * item1
 * item2
 * item3
@@ -49,4 +51,9 @@ c = enumerate (a + b)
 
 
 * [x] chaeck
-* [ ] not checked
+* [ ] not checked  
+[^note]: this is note
+
+
+
+
