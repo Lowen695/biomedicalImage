@@ -19,7 +19,8 @@ for article in doc.find_all('article'):
         vid_id = vid_src.split('/')[4]
         vid_id = vid_id.split('?')[0]
         yt_link = f'https://youtube.com/watch?v={vid_id}'
-    except:
+    except Exception as e:
+        print(e)
         yt_link = None
 
     print(yt_link)
