@@ -6,6 +6,7 @@
         <entryData>
           <resourceRoots>
             <path value="file://$PROJECT_DIR$/opencv-course/Resources" />
+            <path value="file://$PROJECT_DIR$/biomedical_image_assay/Resources" />
           </resourceRoots>
         </entryData>
       </entry>
