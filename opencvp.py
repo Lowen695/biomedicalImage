@@ -1,12 +1,23 @@
-# Lowen python 练习
-# 编写时间 03/12/2021 12:04
-import cv2 as cv
-import numpy as np
+# import os
+# from contextlib import contextmanager
+#
+# @contextmanager
+# def change_dir(destination):
+#     try:
+#         cwd = os.getcwd()
+#         os.chdir(destination)
+#         yield
+#     finally:
+#         os.chdir(cwd)
+#
+# with change_dir('sample_path'):
+#     print(os.listdir())
+import os
 
-# img = cv.imread('elisa.png')
-# print(type(img))
+user = os.environ.get('DB_USER')
+password = os.environ.get('DB_PASS')
 
-a = np.arange(0,30,2)
-b=a.reshape(3,5)
-c = np.mean(b[1:2,0:3])
-print(b,b[1:2,0:3],c)
+print(user)
+print(password)
+
+

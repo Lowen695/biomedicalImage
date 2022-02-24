@@ -1,18 +1,20 @@
-# Markdown practice 
+# Biomedical image analysis
 ## Notebook 2021
 
-__This is bold__ \
-**this is another way for bold text** \
-~~This is for strikethrough text~~
+__Analyses based on Python and Opencv__   
+
+[comment]: <> (**Other pyhon  ** \)
+
+[comment]: <> (~~This is for strikethrough text~~)
 
 ___
 
-\*How to type symbol without syntax meaning
+[comment]: <> (\*How to type symbol without syntax meaning)
 
 
-> #This is a BLOCK
-> YOU CAN WRITE ANYTHING HERE \
-> IN ONE BLOCK \
+> #Module used 
+> YOU CAN WRITE ANYTHING HERE  
+> IN ONE BLOCK  
 > And show in entire
 > > Block in block  
 > > the end.
@@ -50,7 +52,7 @@ c = enumerate (a + b)
 | col 3 is | right-aligned |    $1 |
 
 
-* [x] chaeck
+* [x] checked
 * [ ] not checked  
 [^note]: this is note
 
